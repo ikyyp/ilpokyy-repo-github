@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Identitas Kelas 8.6</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    .judul {
+      font-size: 32px;
+      font-weight: bold;
+      color: #007bff;
+      animation: slideText 10s linear infinite;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid;
+    }
+    @keyframes slideText {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .wali-kelas {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .wali-kelas:hover {
+      background-color: #0056b3;
+    }
+    .quotes {
+      margin: 20px 0;
+      font-style: italic;
+      text-align: center;
+      color: #555;
+    }
+    .siswa {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="judul">Selamat datang di pengenalan siswa siswi 8.6</div>
+  <a class="wali-kelas">Desmiati, S.Pd., M.Pd</a>
+  <div class="quotes">"Bersama kita hebat, bersama kita kuat, kelas 8.6 luar biasa!"</div>  <div class="siswa">
+    <!-- Siswa Awal -->
+    <div class="card">
+      <h3>Muhammad Rizky Fahrianto</h3>
+      <p><strong>Umur:</strong> 15</p>
+      <p><strong>Tanggal Lahir:</strong> 3 Oktober 2010</p>
+      <p><strong>Asal:</strong> Tembilahan</p>
+      <p><strong>Sifat:</strong> Baik</p>
+      <p><strong>Hobi:</strong> Ngoding</p>
+      <p><strong>Makanan Favorit:</strong> Ayam</p>
+      <p><strong>Minuman Favorit:</strong> Susu</p>
+      <p><strong>Gabut:</strong> Bikin bot WhatsApp</p>
+    </div><div class="card">
+  <h3>M. Naufal Aditya Saputra</h3>
+  <p><strong>Umur:</strong> 14</p>
+  <p><strong>Tanggal Lahir:</strong> 18 Maret 2011</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Aneh, Baik</p>
+  <p><strong>Hobi:</strong> Ngikut orang</p>
+  <p><strong>Makanan Favorit:</strong> Ayam</p>
+  <p><strong>Minuman Favorit:</strong> Es teh</p>
+  <p><strong>Gabut:</strong> Mikir sana sini</p>
+</div>
+
+<div class="card">
+  <h3>M. Alfath Riziq</h3>
+  <p><strong>Umur:</strong> 14</p>
+  <p><strong>Tanggal Lahir:</strong> 6 Agustus 2010</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Baik</p>
+  <p><strong>Hobi:</strong> Main bola</p>
+  <p><strong>Makanan Favorit:</strong> Nasi Padang</p>
+  <p><strong>Minuman Favorit:</strong> Es teh</p>
+  <p><strong>Gabut:</strong> Main game</p>
+</div>
+
+<!-- Tambahan Baru -->
+<div class="card">
+  <h3>Syahrul Habibi</h3>
+  <p><strong>Umur:</strong> 14</p>
+  <p><strong>Tanggal Lahir:</strong> 22 Agustus 2011</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Ramah</p>
+  <p><strong>Hobi:</strong> Bola</p>
+  <p><strong>Makanan Favorit:</strong> Nasi</p>
+  <p><strong>Minuman Favorit:</strong> Susu Coklat</p>
+  <p><strong>Gabut:</strong> Main di luar</p>
+</div>
+
+<div class="card">
+  <h3>Aulia Rahman</h3>
+  <p><strong>Umur:</strong> 14</p>
+  <p><strong>Tanggal Lahir:</strong> 14 Maret 2011</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Baik, Sedikit Nakal</p>
+  <p><strong>Hobi:</strong> Gamers</p>
+  <p><strong>Makanan Favorit:</strong> Kaviar</p>
+  <p><strong>Minuman Favorit:</strong> Kopi Panas</p>
+  <p><strong>Gabut:</strong> Jalan-jalan</p>
+</div>
+
+<div class="card">
+  <h3>Muhammad Ragil Alhafiz</h3>
+  <p><strong>Umur:</strong> 14</p>
+  <p><strong>Tanggal Lahir:</strong> 3 April 2011</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Baik</p>
+  <p><strong>Hobi:</strong> Futsal</p>
+  <p><strong>Makanan Favorit:</strong> Nasi</p>
+  <p><strong>Minuman Favorit:</strong> Air putih</p>
+  <p><strong>Gabut:</strong> Tidur</p>
+</div>
+
+<div class="card">
+  <h3>Muhammad Satria Alfaza</h3>
+  <p><strong>Umur:</strong> 13</p>
+  <p><strong>Tanggal Lahir:</strong> 1 November 2011</p>
+  <p><strong>Asal:</strong> Tembilahan</p>
+  <p><strong>Sifat:</strong> Tengil</p>
+  <p><strong>Hobi:</strong> Futsal</p>
+  <p><strong>Makanan Favorit:</strong> Ayam Richeese</p>
+  <p><strong>Minuman Favorit:</strong> Milo Dingin</p>
+  <p><strong>Gabut:</strong> Keluar rumah</p>
+</div>
+
+  </div>
+</body>
+</html>
